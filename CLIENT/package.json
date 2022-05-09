@@ -1,0 +1,52 @@
+{
+  "name": "tindeirb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-brands-svg-icons": "^6.1.1",
+    "@fortawesome/free-regular-svg-icons": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/react-native-fontawesome": "^0.2.7",
+    "@react-native-async-storage/async-storage": "~1.15.0",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/native": "^6.0.10",
+    "@react-navigation/native-stack": "^6.6.2",
+    "@react-navigation/stack": "^6.2.1",
+    "axios": "^0.26.1",
+    "expo": "~44.0.2",
+    "expo-image-picker": "^12.0.2",
+    "expo-linear-gradient": "~11.0.3",
+    "expo-splash-screen": "~0.14.1",
+    "expo-status-bar": "~1.2.0",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-native": "0.64.3",
+    "react-native-date-picker": "^4.2.1",
+    "react-native-dropdown-picker": "^5.4.0",
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-image-picker": "^4.7.3",
+    "react-native-paper": "^4.12.1",
+    "react-native-radio-buttons-group": "^2.2.10",
+    "react-native-safe-area-context": "3.3.2",
+    "react-native-screens": "3.10.1",
+    "react-native-svg": "12.1.1",
+    "react-native-swipe-cards": "^0.1.1",
+    "react-native-swipe-cards-deck": "^0.3.0",
+    "react-native-video": "^5.2.0",
+    "react-native-web": "0.17.1",
+    "socket.io-client": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@expo/ngrok": "^4.1.0"
+  },
+  "private": true
+}
